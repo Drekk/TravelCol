@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159793556030",
+    "project_id": "travel-44de1"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159793556030:android:a29d99847499d0ba",
+        "android_client_info": {
+          "package_name": "com.michaelvelez.travelcol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159793556030-torlrp5535ufieoee2grvqqrtf9tmhlf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "159793556030-jja2ca3ruli86esapks7tgkmflath12b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.michaelvelez.travelcol",
+            "certificate_hash": "16a30ad9abe1175a1556fd8c1857993edff08596"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEEKRxJs6H9nswstcgrDyIwnZNCtbpQhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
