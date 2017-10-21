@@ -4,10 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,7 +30,7 @@ import com.google.android.gms.common.api.Status;
 import static android.R.attr.resource;
 import static com.michaelvelez.travelcol.R.id.image;
 
-public class PerfilActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
+public class PerfilActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener,NavigationView.OnNavigationItemSelectedListener {
 
     private String correoR,passwordR,correoG,nameG,urlG,nameF,urlF,correoF;
     private TextView tNombre,tPassword;
@@ -45,6 +47,9 @@ public class PerfilActivity extends AppCompatActivity implements GoogleApiClient
 
         tNombre = (TextView)findViewById(R.id.tNombre);
         tPassword = (TextView)findViewById(R.id.tPassword);
+
+//        FrameLayout contentFrameLayout = (FrameLayout)findViewById(R.id.content);
+//        getLayoutInflater().inflate(R.layout.activity_splash,contentFrameLayout);
 
 
         Bundle extras = getIntent().getExtras();
@@ -236,5 +241,10 @@ public class PerfilActivity extends AppCompatActivity implements GoogleApiClient
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        return false;
     }
 }
