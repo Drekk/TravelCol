@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Principal" />
+        <item
+            android:id="@+id/nav_tours"
+            android:icon="@drawable/ic_tours"
+            android:title="Tours" />
+        <item
+            android:id="@+id/nav_experiencia"
+            android:icon="@drawable/ic_experiencia"
+            android:title="Tu experiencia" />
+        <item
+            android:id="@+id/nav_tabs"
+            android:icon="@drawable/ic_switch_camera_black_24dp"
+            android:title="Swipe Tabs" />
+    </group>
+
+    <item android:title="Tu App">
+        <menu>
+            <item
+                android:id="@+id/nav_cc"
+                android:icon="@drawable/ic_sentiment_dissatisfied"
+                android:title="Cerrar Sesión" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_settings_about"
+                android:title="Acerca" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.michaelvelez.travelcol.fragments.HomeFragment"
+    android:orientation="vertical"
+
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mapa"
+        android:paddingTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usted Se encuentra cerca de los siguientes lugares, escoja el lugar para mirar el tour que pasa por este destino:"/>
+    <RadioButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Parque Biblioteca Belén"
+        android:textSize="14dp"/>
+    <RadioButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Museo Artístico Montecristo"
+        android:textSize="14dp"/>
+
+    <RadioButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Hacienda Fizebad"
+        android:textSize="14dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"/>
+
+
+
+
+</LinearLayout>

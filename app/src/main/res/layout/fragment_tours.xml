@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.michaelvelez.travelcol.fragments.ToursFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:paddingTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la ciudad deaseada para mostrar los tours disponibles:"/>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="Medellin"
+            android:textSize="17.5sp" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Bogota"
+            android:textSize="17.5sp"/>
+        <RadioButton
+            android:id="@+id/rTriangulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barranquilla"
+            android:textSize="17.5sp"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pereira"
+            android:textSize="17.5sp"/>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartagena"
+            android:textSize="17.5sp"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
